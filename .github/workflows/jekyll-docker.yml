@@ -22,6 +22,6 @@ jobs:
       id: set-env
       run: echo "CUSTOM_URL=https://myanimeaction.com" >> $GITHUB_ENV  # Replace with your custom URL
     - name: Output Custom URL
-      run: echo "Custom URL is: $CUSTOM_URL"
+      run: echo "Custom URL is: ${{ env.CUSTOM_URL }}"
     - name: Display Deployment Information
-      run: echo "Deployment completed. Access your site at: $CUSTOM_URL"
+      run: echo "Deployment completed. Access your site at: ${{ env.CUSTOM_URL }}"
