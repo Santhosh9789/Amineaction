@@ -24,5 +24,4 @@ jobs:
     - name: Output Custom URL
       run: echo "Custom URL is: $CUSTOM_URL"
     - name: Display Deployment Information
-      run: echo "Deployment completed. Access your site at: $CUSTOM_URL"  
- 
+      run: echo "Deployment completed. Access your site at: $CUSTOM_URL"
